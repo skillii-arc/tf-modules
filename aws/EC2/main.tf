@@ -4,8 +4,8 @@ module "ec2-instance" {
 
   ami = var.instance_ami
   instance_type = var.instance_type
-  key_name = var.key_name
-  vpc_security_group_ids = var.vpc_security_group_ids
+  # key_name = var.key_name
+  # vpc_security_group_ids = var.vpc_security_group_ids
   subnet_id = var.subnet_id
   create_security_group = var.create_security_group
   security_group_description = var.security_group_description
