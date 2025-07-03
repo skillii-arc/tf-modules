@@ -14,9 +14,9 @@ variable  instance_type {
 #     type = list(string)
 # }
 
-# variable tags {
-#     type = map(string)
-# }
+variable tags {
+    type = map(string)
+}
 
 variable "subnet_id" {
     type = string

@@ -12,5 +12,5 @@ module "ec2-instance" {
   security_group_ingress_rules = var.security_group_ingress_rules
   security_group_name = var.security_group_name
   security_group_vpc_id = var.security_group_vpc_id
-  # tags = var.tags
+  tags = var.tags
 }
