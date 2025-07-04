@@ -6,6 +6,10 @@ variable  instance_type {
     type = string
 }
 
+variable "associate_public_ip_address" {
+    type = bool
+    default = false
+}
 # variable key_name {
 #     type = string
 # }
